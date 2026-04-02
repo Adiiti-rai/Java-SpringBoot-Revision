@@ -72,7 +72,7 @@ public class GitRevisionDemo {
 //Login with phone
 //>>>>>>> feature-login
 
-//👉 Meaning:
+
 //HEAD → (current branch (main))-->HEAD is a pointer that refers to the current branch or commit.
 //feature-login → (merging branch)
 // To resolve merge conflict-->
