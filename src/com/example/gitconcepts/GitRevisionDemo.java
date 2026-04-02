@@ -115,3 +115,5 @@ public class GitRevisionDemo {
 //why we need cherry-pic-->
 //We use git cherry-pick to apply a specific commit (like a bug fix) to another branch without merging the whole branch.
 // It helps when you need only selected changes, not all changes from a branch
+
+//git amend--->git commit --amend is used to modify the last commit.
