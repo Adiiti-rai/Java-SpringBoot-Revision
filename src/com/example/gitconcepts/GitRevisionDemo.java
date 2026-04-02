@@ -109,6 +109,12 @@ public class GitRevisionDemo {
 // git reset-->undo commits
 //git rebase-->Reapply commits on top of another branch
 //git diff-->Show changes between commits, branches, or working directory
+// git squash-->Combine multiple commits into one commit
+// It is Used to keep a clean and readable commit history
+//git revert--> It is Used to undo a commit by creating a new commit
+// Safe because it does not delete history
+//git revert <commit_id>
+//git tag-->Used to assign a label/name to a specific commit.
 
 // cherry-pick--> It is used to pick a specific commit from one branch and apply it to another branch.
 //git cherry-pick<commit_id>
@@ -116,4 +122,5 @@ public class GitRevisionDemo {
 //We use git cherry-pick to apply a specific commit (like a bug fix) to another branch without merging the whole branch.
 // It helps when you need only selected changes, not all changes from a branch
 
-//git amend--->git commit --amend is used to modify the last commit.
+//git amend---> is used to modify the last commit.
+// git commit --amend
