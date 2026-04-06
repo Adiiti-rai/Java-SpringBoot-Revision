@@ -1,6 +1,9 @@
 package com.example.exceptionconcepts;
 
-// What is exception?
+// What is exception?--> An exception is an event, which occurs during the execution of a program,
+// that disrupts the normal flow of the program's instructions.
+//exception Object->When an error occurs within a method, the method creates an exception object with error details and gives it to the JVM to handle.
+//what do you mean by throwing exception?-> Creating an exception object and handing it to the runtime system is called throwing an exception.
 //what is exception handling?
 //why we need exception and exception handling?
 //what are the advantages of exception handling?
@@ -23,9 +26,11 @@ package com.example.exceptionconcepts;
 
 
 
-
+//Q--> WRITE THE CODE WHICH THROWS AN ARITHMETIC EXCEPTION
 public class ExceptionDemo {
     public static void main(String[] args){
+        int x= 10/0;
+        System.out.println(x);
 
     }
 }
