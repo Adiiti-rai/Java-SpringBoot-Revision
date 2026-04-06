@@ -52,6 +52,10 @@ public class MavenDemo {
 // 11. How to add dependencies in maven?-->add the dependency inside the pom.xml file
 // 12. How to build a maven project?
 // 13. How to run a maven project?
-
+// 14.Dependency vs Dependency Management
+// 15.How would you resolve a cyclic dependency
+// 16.Maven goals and lifecycle as mentioned
+//17.Maven plugins to add for code coverage JaCoCo plugins
+// 18.settings.xml and its properties.
 
 
