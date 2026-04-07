@@ -27,7 +27,7 @@ public class StreamConceptDemo {
     }
 }
 
-// howMany ways to create a stream?-->
+//howMany ways to create a stream?-->
 //1. from collection:-> collection.stream()
 //2. from array:-> Arrays.stream(array)
 //3.from Static method:-> Stream.of(element1,element2,element3,...)
@@ -36,4 +36,7 @@ public class StreamConceptDemo {
 //6.From Stream Iterate:-> Stream.iterate(seed, hasNextPredicate, nextFunction)
 
 
-// why we call intermediate operations as lazy.
+// why we call intermediate operations as lazy.-->
+//Intermediate operations are called lazy because they do not execute immediately;
+// they run only when a terminal operation is invoked.
+
