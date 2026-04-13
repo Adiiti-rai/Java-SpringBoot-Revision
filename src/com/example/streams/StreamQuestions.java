@@ -68,11 +68,6 @@ public class StreamQuestions {
                 .collect(Collectors.groupingBy(c->c,Collectors.counting()));
         System.out.println(map);
 
-        //8.Given a string, find the words with the maximum number of vowels.
-        String str5= "Java is a programming language";
-        System.out.println(str5);
-        int maxVowelCount= Arrays.stream(str5.split(" "))
-
 
     }
 }
