@@ -34,10 +34,22 @@ package com.example.exceptionconcepts;
 //Understand Exception heirarchy
 //what is try and catch block?
 //try block:- A try block contains the code where exception might occur.
+//Nested try block:-
 //catch block:- A catch block is used to handle the exception thrown by the try block.catch block will not be executed if their is no exception inside the try block.
-// what is multiple catch block?
+
+// what is multiple catch block?-> Multiple catch blocks are used to handle different types of exceptions that may be thrown by the try block.
+// Each catch block can handle a specific type of exception, allowing for more precise error handling.
+//==>One try can have multiple catch blocks for different exceptions.
+
 //what is finally block?
 //what is throw and throws keyword?
+//-> throw:- The throw keyword in Java is used to explicitly create and throw an exception manually.
+//It is used inside a method or block
+//It throws one exception at a time
+//After throw, execution stops immediately
+// syntax:- throw new ExceptionType("Error message");
+
+
 //what is the difference between throw and throws keyword?
 //what is nested try-catch block?
 

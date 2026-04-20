@@ -1,4 +1,4 @@
-package com.example.exceptionconcepts;
+package com.example.exceptionconcepts.throwconcepts;
 // Throw-> here i am writing the throw exception.
 public class Test {
     public static void main(String[] args){

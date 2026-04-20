@@ -1,4 +1,4 @@
-package com.example.exceptionconcepts;
+package com.example.exceptionconcepts.throwsconcepts;
 //Throws-->
 import java.io.*;
 
